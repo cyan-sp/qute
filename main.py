@@ -5,6 +5,7 @@ from PySide6.QtGui import QPainter
 from PySide6.QtCore import QRect, QTimer
 
 
+
 class Window(QWidget):
     def make_grid(self, width, height):
         squares = []
